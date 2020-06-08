@@ -30,9 +30,7 @@ class App extends React.Component{
 	//in this case "VideoItem"
 	//up ^ to the parent which is "App"
 	onVideoSelect = (video) => {
-		console.log('from the app', video);
 		this.setState({selectedVideo:video});
-		console.log(this.state);
 	}
 
 	render(){
