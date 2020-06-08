@@ -16,6 +16,7 @@ class SearchBar extends React.Component{
 	render(){
 		return(
 			<div className='ui segment'>
+			<h3>Video Search</h3>
 			<form onSubmit={this.onFormSubmit} className="ui fluid category search">
 			<div className="ui icon input">
 			<input onChange={this.onInputChange} value={this.state.term} className="prompt" type="text" placeholder="Search videos..."/>
