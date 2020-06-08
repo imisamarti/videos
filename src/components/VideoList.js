@@ -1,6 +1,9 @@
 import React from 'react';
 import VideoItem from './VideoItem';
 
+//Uses callback function "onVideoSelect"
+//to pass information from child "VideoItem"
+//up to parent App 
 const VideoList = ({videos, onVideoSelect}) => {
 	//props.videos
 
